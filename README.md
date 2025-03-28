@@ -43,6 +43,28 @@ git status
 git checkout -b test-branch
 ```
 
+To add the main code to your branch run:
+
+```code
+git add .
+git commit -m "new branch"
+```
+
+And: 
+```code 
+git status
+```
+"On branch test-branch
+nothing to commit, working tree clean"
+
+### How to push code to collab repository:
+
+```code 
+git push -u origin test-branch
+```
+
+- Create a pull request for 'test-branch' on GitHub collab repository by pressing "Create pull request"
+
 
 
 
